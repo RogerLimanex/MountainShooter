@@ -21,7 +21,6 @@ ENTITY_SPEED = {
     'Enemy2': 1,
 }
 
-
 ENTITY_HEALTH = {
     'Level1Bg0': 999,
     'Level1Bg1': 999,
@@ -31,11 +30,9 @@ ENTITY_HEALTH = {
     'Level1Bg5': 999,
     'Level1Bg6': 999,
     'Player1': 300,
-    'Player1Shot': 1,
     'Player2': 300,
-    'Player2Shot': 1,
     'Enemy1': 50,
-    'Enemy1Shot': 1,
+    'Enemy2': 60,
 }
 
 # M
@@ -56,7 +53,8 @@ PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                    'Player2': pygame.K_LCTRL}
+                    'Player2': pygame.K_LCTRL
+                    }
 
 # S
 SPAWN_TIME = 4000
